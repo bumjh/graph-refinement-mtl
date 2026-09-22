@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gr-mtl"
+version = "0.1.0"
+description = "Standalone graph-refined multi-task learning for fundus findings."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "bumjh" }]
+
+[tool.setuptools]
+py-modules = [
+  "train_baseline_mtl",
+  "train_graph_refine_mtl",
+  "export_test_threshold_metrics",
+  "append_experiment_summary",
+]

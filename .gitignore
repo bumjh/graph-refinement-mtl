@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Local data and caches
+*.csv
+data/
+cache/
+checkpoints/
+outputs/
+
+# Experiment artifacts
+*.pt
+*.pth
+*.xlsx
+*.xls
+*.csv
+*.log
+gradcam/
+confusion_matrices/
+
+# Local machine configuration
+.env
