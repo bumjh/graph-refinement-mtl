@@ -10,7 +10,7 @@ image caches, checkpoints, and experiment workbooks are excluded from Git.
 - `train_graph_refine_mtl.py`: baseline plus Clinical GCN auxiliary refinement.
 - `export_test_threshold_metrics.py`: test threshold and auxiliary metrics export.
 - `append_experiment_summary.py`: append one run to `experiment_summary.xlsx`.
-- `scripts/run_seed42_baseline_rgonly_comparison.ps1`: run the four seed-42
+- `scripts/run_seed42_baseline_comparison.ps1`: run the four seed-42
   comparison conditions used in the short paper.
 
 ## Model
@@ -96,7 +96,7 @@ prediction.
 ## Seed-42 Comparison
 
 ```powershell
-.\scripts\run_seed42_baseline_rgonly_comparison.ps1
+.\scripts\run_seed42_baseline_comparison.ps1
 ```
 
 This runs baseline MTL, RG-only frozen-backbone, RG-only unfrozen-backbone,
